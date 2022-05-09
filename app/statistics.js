@@ -6,7 +6,7 @@ module.exports = function getStatistics(numArray:Array){
         return Math.min.apply(null,this);
     }
     
-     Array.prototype.avg = function(){
+     Array.prototype.average = function(){
         var arrSum = 0;
         for(var count = 0;count<numArray.length;count++){
             arrSum += numArray[count];
